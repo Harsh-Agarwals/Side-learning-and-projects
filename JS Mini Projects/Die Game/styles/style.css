@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------------------HEADER-------------------------- */
+header h1 {
+    font-size: min(3rem, 12vw);
+    color: limegreen;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+/* -----------------------MAIN-------------------------- */
+main img {
+    width: min(50%, 40vw);
+}
+
+.player {
+    color: limegreen;
+    font-size: 1.3rem;
+}
+
+.score {
+    color: limegreen;
+    text-align: center;
+}
+
+.buttons button {
+    font-size: min(1.25rem, 5vw);
+}
+
+/* -----------------------FOOTER-------------------------- */
+
+.result {
+    text-align: center;
+    font-size: min(2rem, 8vw);
+    font-weight: bold;
+    color: gray;
+    padding: 0 2rem;
+}
+
+footer h4 {
+    font-size: min(4.5vw, 1.35rem);
+}

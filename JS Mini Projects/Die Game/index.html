@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Die Game" />
+        <meta name="author" content="Harsh Agarwal" />
+        <title>Die Game</title>
+
+        <!-- Favicon -->
+        <link
+            rel="shortcut icon"
+            href="./images/favicon.ico"
+            type="image/x-icon"
+        />
+
+        <!-- BootStrap CDN -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Emoji CSS -->
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+
+        <!-- External CSS linking -->
+        <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+
+        <!-- JavaScript linking -->
+        <script src="./scripts/app.js" defer></script>
+    </head>
+    <body class="bg-dark mx-auto">
+        <header class="text-center py-5">
+            <h1>DIE GAME</h1>
+        </header>
+        <main>
+            <div class="container-lg text-center">
+                <div class="row">
+                    <div class="col-sm-6 my-5">
+                        <p class="player">Player-1</p>
+                        <img
+                            src="./images/dice6.png"
+                            alt="die6"
+                            class="die-1"
+                        />
+                    </div>
+                    <div class="col-sm-6 mt-sm-5">
+                        <p class="player">Player-2</p>
+                        <img
+                            src="./images/dice6.png"
+                            alt="die6"
+                            class="die-2"
+                        />
+                    </div>
+                </div>
+                <div class="my-5 buttons">
+                    <button
+                        type="button"
+                        class="btn btn-outline-warning btn-lg mb-3 play_game"
+                    >
+                        Play Game
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-outline-info btn-lg mx-2 mx-sm-3 mx-md-4 mb-3 refresh"
+                    >
+                        Refresh
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-outline-success btn-lg mb-3 final_score"
+                    >
+                        Final Score
+                    </button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h4 class="text-center my-5 text-light">
+                Copyrights @ Harsh Agarwal
+            </h4>
+        </footer>
+    </body>
+</html>
