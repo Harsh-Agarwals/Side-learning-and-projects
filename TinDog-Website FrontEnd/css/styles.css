@@ -1,0 +1,278 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+/* =========================GENERAL DESIGNS========================== */
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: min(3.5rem, 10vw);
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+#title,
+.bottom-section,
+.carousel {
+    color: white;
+    background-color: #ff4c68;
+}
+
+/* ==============================TITLE============================ */
+#title {
+    overflow: hidden;
+}
+
+#title .header {
+    padding: 3% 15%;
+}
+
+/* ==-----------------NAVBAR----------------== */
+/* -----------LOGO--------- */
+.logo {
+    text-transform: capitalize;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: min(2.5rem, 10vw);
+}
+
+/* ------------NAV ITEMS---------- */
+.nav-item {
+    padding-right: 1em;
+    font-size: 1.2rem;
+}
+
+.nav-item:last-child {
+    padding-right: 0;
+}
+
+/* ----------------TITLE CONTENT--------------- */
+.head-left {
+    margin-top: 5%;
+    text-align: left;
+    padding-right: 0;
+}
+
+/* ==-----------------BUTTONS--------------== */
+.title-btn {
+    text-align: left;
+}
+
+#title .btn,
+.bottom-section button {
+    margin: 1rem 0;
+}
+
+#title .first-btn,
+.bottom-section .first-btn {
+    margin-right: 1rem;
+}
+
+/* -------------BRAND LOGOS------------ */
+.fa-brands {
+    width: 2rem;
+    text-align: left;
+}
+
+/* ------------IPHONE IMAGE---------- */
+#title img {
+    width: 70%;
+    transform: rotate(25deg);
+    position: relative;
+    top: 5%;
+    left: 15%;
+}
+
+/* =============================FEATURES SECTION============================= */
+#features {
+    background-color: white;
+    /* position: relative;
+    top: -2rem; */
+}
+
+/* -----------FEATURES ELEMENTS----------- */
+.values {
+    padding: 12% 5%;
+}
+
+.values i {
+    color: #ff4c68;
+    opacity: 0.8;
+    font-size: 4rem;
+}
+
+.values i:hover {
+    opacity: 1;
+}
+
+.values h3 {
+    font-size: 1.5rem;
+    padding-top: 8%;
+}
+
+.values p {
+    color: #8f8f8f;
+}
+
+/* =============================CAROUSEL============================= */
+.carousel {
+    background-color: #ef8172;
+    padding: 10% 15%;
+}
+
+/* ---------------CAROUSEL ELEMENTS-------------- */
+.carousel h2 {
+    font-size: min(2.5rem, 8vw);
+    line-height: 1.5;
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 10em;
+    display: block;
+    margin: 2em auto;
+}
+
+.carousel-item em {
+    display: block;
+    padding: 1rem;
+    letter-spacing: 1.5;
+}
+
+/* =============================CREDENTIALS============================= */
+.credentials {
+    background-color: #ef8172;
+    padding: 3% 5%;
+}
+
+/* -----------------CREDENTIALS IMAGES---------------- */
+.credentials div {
+    margin: 1rem 0;
+}
+
+.credentials img {
+    width: 70%;
+}
+
+/* =============================PRICING PANEL============================= */
+#pricing {
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+}
+
+/* -----------------PRICING HEADER--------------- */
+.pricing-header {
+    padding: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-header h2 {
+    margin-bottom: 1rem;
+}
+
+/* ----------------PRICE BOX--------------- */
+.prices {
+    padding: 0 10%;
+}
+
+.prices .card {
+    margin-bottom: 1.5rem;
+}
+
+.prices h2 {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+/* =============================BOTTOM CTA SECTION============================= */
+.bottom-section {
+    padding: 10%;
+}
+
+.bottom-section h3 {
+    font-size: min(2.5rem, 10vw);
+    padding: 3rem;
+}
+
+/* =============================FOOTER============================= */
+#footer {
+    padding: 2rem;
+}
+
+/* ---------------FOOTER SM ICONS---------------- */
+.sm-list {
+    width: 190px;
+    margin: 0 auto 0.5rem;
+}
+
+.sm-list li {
+    border: none;
+}
+
+.sm-list a {
+    font-size: 1.2rem;
+    color: #646363;
+}
+
+.sm-list a:hover {
+    color: black;
+}
+
+/* =============================RESPONSIVE DESIGN for width<992px============================= */
+@media screen and (max-width: 992px) {
+    #title .nav-item {
+        padding-right: 0;
+    }
+    #title img {
+        left: 0;
+        width: 50%;
+    }
+    .title-btn {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+}
+
+/* =============================RESPONSIVE DESIGN for width<576px============================= */
+@media screen and (max-width: 576px) {
+    #title .header {
+        padding: 3% 10%;
+    }
+    #title h1 {
+        text-align: center;
+    }
+    .title-btn {
+        text-align: center;
+    }
+    #title img {
+        width: 70%;
+    }
+    .user-img {
+        width: 8em;
+    }
+    .credentials img {
+        width: 55%;
+        padding: 0.5rem;
+    }
+}
+
+/* =============================RESPONSIVE DESIGN for width<464px============================= */
+@media screen and (max-width: 464px) {
+    #title .first-btn,
+    .bottom-section .first-btn {
+        margin-right: 0;
+    }
+}
