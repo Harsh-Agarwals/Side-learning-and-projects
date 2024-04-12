@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Harsh Agarwal-30-11-23" />
+        <meta name="description" content="Foodtech website" />
+        <title>Tomato-Delicious Foods</title>
+
+        <!-- Favicon Icon -->
+        <link rel="icon" href="./images/icon.ico" />
+
+        <!-- Bootstrap CSS CDN -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <!-- Font awesome CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+            integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- External CSS -->
+        <link rel="stylesheet" href="./styles/styles.css" type="text/css" />
+
+        <!-- Bootstrap JS CDN -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- External JS -->
+        <script src="./scripts/app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="nav-bar nav" id="navbar">
+                <div class="logo">
+                    <img src="./images/nav-logo.png" alt="tomato-logo" />
+                </div>
+                <div class="choices">
+                    <input type="checkbox" name="" id="" />
+                    <div class="hamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul class="main-menu">
+                        <li class="menu-list">
+                            HOME
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="submenu">
+                                <ul class="sm1">
+                                    <li><a href="#">HOME HEADER</a></li>
+                                    <li><a href="#">HOME ABOUT</a></li>
+                                    <li><a href="#">HOME RESERVATION</a></li>
+                                    <li><a href="#">HOME ADDRESS</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list">
+                            MENU
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="submenu">
+                                <ul class="sm1">
+                                    <li><a href="#">MENU DRINKS</a></li>
+                                    <li><a href="#">MENU DESSERTS</a></li>
+                                    <li><a href="#">MENU MAIN COURSE</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list">
+                            RESERVATION
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="submenu">
+                                <ul class="sm1">
+                                    <li><a href="#">RESERVATION</a></li>
+                                    <li><a href="#">RESERVATION TABLE</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list">
+                            PAGES
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="submenu">
+                                <ul class="sm1">
+                                    <li><a href="#">ABOUT</a></li>
+                                    <li><a href="#">BLOGS</a></li>
+                                    <li><a href="#">GALLERY</a></li>
+                                    <li><a href="#">LOGIN/SIGNUP</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list">
+                            RECIPE
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="submenu">
+                                <ul class="sm1">
+                                    <li><a href="#">RECIPE A01</a></li>
+                                    <li><a href="#">RECIPE A02</a></li>
+                                    <li><a href="#">RECIPE A03</a></li>
+                                    <li class="more">
+                                        <a href="#">RECIPE LIST&nbsp;</a>
+                                        <i class="fa-solid fa-caret-down"></i>
+                                        <div class="submenu-2">
+                                            <ul class="sm2">
+                                                <li>
+                                                    <a href="#">NORTH INDIAN</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">SOUTH INDIAN</a>
+                                                </li>
+                                                <li><a href="#">CHINESE</a></li>
+                                                <li><a href="#">ITALIAN</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list">
+                            BLOG
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="submenu">
+                                <ul class="sm1">
+                                    <li><a href="#">BLOG FOOD</a></li>
+                                    <li><a href="#">BLOG AMBIENCE</a></li>
+                                    <li><a href="#">BLOG HABITS</a></li>
+                                    <li><a href="#">BLOG ETIQUETTES</a></li>
+                                    <li class="more">
+                                        <a href="#">BLOG FOODS&nbsp;</a>
+                                        <i class="fa-solid fa-caret-down"></i>
+                                        <div class="submenu-2">
+                                            <ul class="sm2">
+                                                <li>
+                                                    <a href="#">DESSERTS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">MAIN COURSE</a>
+                                                </li>
+                                                <li><a href="#">DRINKS</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list">
+                            SHOP
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="submenu">
+                                <ul class="sm1">
+                                    <li><a href="#">SHOP - CART</a></li>
+                                    <li><a href="#">SHOP - CHECKOUT</a></li>
+                                    <li><a href="#">SHOP - ACCOUNT</a></li>
+                                    <li>
+                                        <a href="#">SHOP - ACCOUNT DETAILS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SHOP - HOME SERVICES</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="contact"><a href="#">CONTACT</a></li>
+                        <li class="menu-list cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="cart-num">2</span>
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="submenu">
+                                <ul class="sm1">
+                                    <li class="cart-text">SHOPPING CART</li>
+                                    <li class="cart-item cartitem">
+                                        <div class="cart-img">
+                                            <img
+                                                src="./images/paneertikka.jpg"
+                                                alt="naan"
+                                                class="cart-image"
+                                            />
+                                        </div>
+                                        <div class="cart-abt">
+                                            <div class="dish">
+                                                <h6>Paneer Tikka</h6>
+                                                <button>
+                                                    <i
+                                                        class="fa-solid fa-xmark"
+                                                    ></i>
+                                                </button>
+                                            </div>
+                                            <div class="details">
+                                                <span
+                                                    >Price: &#8377;<span
+                                                        class="itemprice"
+                                                        >289</span
+                                                    ></span
+                                                >
+                                                <span>
+                                                    &nbsp;Qty:
+                                                    <i
+                                                        class="qty fa-solid fa-plus"
+                                                    ></i
+                                                    >&nbsp;
+                                                    <span class="quantityfood"
+                                                        >1</span
+                                                    >&nbsp;
+                                                    <i
+                                                        class="qty fa-solid fa-minus"
+                                                    ></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart-item cartitem">
+                                        <div class="cart-img">
+                                            <img
+                                                src="./images/naan.jpg"
+                                                alt="naan"
+                                                class="cart-image"
+                                            />
+                                        </div>
+                                        <div class="cart-abt">
+                                            <div class="dish">
+                                                <h6>Butter Naan</h6>
+                                                <button>
+                                                    <i
+                                                        class="fa-solid fa-xmark"
+                                                    ></i>
+                                                </button>
+                                            </div>
+                                            <div class="details">
+                                                <span
+                                                    >Price: &#8377;<span
+                                                        class="itemprice"
+                                                        >49</span
+                                                    ></span
+                                                >
+                                                <span>
+                                                    &nbsp;Qty:
+                                                    <i
+                                                        class="qty fa-solid fa-plus"
+                                                    ></i
+                                                    >&nbsp;
+                                                    <span class="quantityfood"
+                                                        >1</span
+                                                    >&nbsp;
+                                                    <i
+                                                        class="qty fa-solid fa-minus"
+                                                    ></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart-item final-cart">
+                                        <span
+                                            >Total: &#8377;
+                                            <span class="amount">!!</span></span
+                                        >
+                                        <button class="view-cart">
+                                            VIEW CART
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-img">
+                <img
+                    src="./images/header1.jpg"
+                    alt="header image"
+                    class="main-image"
+                />
+                <div class="headlines">
+                    <img
+                        src="./images/logo.png"
+                        alt="logo"
+                        class="intro-image"
+                    />
+                    <div class="head-about">
+                        <h1>DELICIOUS FOODS</h1>
+                        <h2><i>Foods that makes you Happy!</i></h2>
+                    </div>
+                    <button class="next-section">
+                        <a href="#first-sec"
+                            ><i class="fa-solid fa-chevron-down down-arrow"></i
+                        ></a>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="first-sec" id="first-sec">
+                <h1>THE RESTAURANT</h1>
+                <h3>
+                    A little about us and a breif history of how we started.
+                </h3>
+                <hr />
+                <div class="resto-content">
+                    <div class="img-gallery">
+                        <img
+                            src="./images/pizza.jpg"
+                            alt="pizza"
+                            class="first-img"
+                        />
+                        <div class="two-images">
+                            <img src="./images/hotel.jpg" alt="Hotel" />
+                            <img src="./images/veges.jpg" alt="Veges" />
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Welcome to <strong><i>TOMATO</i></strong
+                            >, where Indian flavors meet vegetarian excellence.
+                            Our space blends tradition with modern elegance for
+                            a memorable dining experience. Explore a menu
+                            crafted by passionate chefs celebrating the richness
+                            of fresh, healthy vegetables. Whether for a quiet
+                            meal or joyous celebration, our warm ambiance
+                            awaits.
+                        </p>
+                        <p>
+                            Indulge in the art of vegetarian dining at
+                            <strong><i>TOMATO</i></strong
+                            >, where good food and vibrant flavors converge in a
+                            welcoming atmosphere. Our menu, a fusion of classics
+                            and innovative creations, caters to every palate.
+                            Join us for an authentic, flavorful, and wholesome
+                            culinary journey.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="second-sec">
+                <div class="second-img">
+                    <img
+                        src="./images/bg2.jpg"
+                        alt="bg2"
+                        class="second-image"
+                    />
+                </div>
+                <div class="content">
+                    <h1>TODAY'S SPECIAL</h1>
+                    <h3>
+                        Today's Specials - A Symphony of Fresh Flavors and Daily
+                        Inspirations!
+                    </h3>
+                    <hr />
+                    <div class="carousels">
+                        <div class="carousell carousel-1 fadex">
+                            <div class="carousel-content">
+                                <div class="carousel-img">
+                                    <img
+                                        src="./images/desserts2.jpg"
+                                        alt="desserts"
+                                        class="carousel-image"
+                                    />
+                                </div>
+                                <div class="carousel-text">
+                                    <h2>1. Desserts</h2>
+                                    <h4>
+                                        Satisfy your sweet cravings with our
+                                        irresistible desserts at Tomato. From
+                                        classics to innovative treats, our
+                                        dessert menu promises a delightful
+                                        finish to your meal.
+                                    </h4>
+                                    <hr />
+                                    <p>
+                                        Indulge in the velvety richness of our
+                                        signature Chocolate Mousse or try the
+                                        fusion delight of Gulab Jamun
+                                        Cheesecake. Our desserts are a perfect
+                                        way to sweeten your dining experience,
+                                        with each bite promising a symphony of
+                                        flavors that will linger on your palate.
+                                    </p>
+                                    <div class="carousel-btns">
+                                        <button>ORDER NOW</button>
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousell carousel-2 fadex">
+                            <div class="carousel-content">
+                                <div class="carousel-img">
+                                    <img
+                                        src="./images/maincourse.jpg"
+                                        alt="maincourse"
+                                        class="carousel-image"
+                                    />
+                                </div>
+                                <div class="carousel-text">
+                                    <h2>2. Main Course</h2>
+                                    <h4>
+                                        Explore the rich flavors of India with
+                                        our Main Course selection. Each dish is
+                                        a journey through the diverse regions,
+                                        bringing authentic tastes to your table.
+                                    </h4>
+                                    <hr />
+                                    <p>
+                                        Savor North Indian classics like Paneer
+                                        Butter Masala or enjoy the crispiness of
+                                        a Dosa Platter from the South. Our Thali
+                                        experience offers a wholesome taste of
+                                        Indian cuisine, ensuring that every dish
+                                        is crafted with authentic spices and
+                                        love.
+                                    </p>
+                                    <div class="carousel-btns">
+                                        <button>ORDER NOW</button>
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousell carousel-3 fadex">
+                            <div class="carousel-content">
+                                <div class="carousel-img">
+                                    <img
+                                        src="./images/beverages.jpg"
+                                        alt="beverages"
+                                        class="carousel-image"
+                                    />
+                                </div>
+                                <div class="carousel-text">
+                                    <h2>3. Beverages</h2>
+                                    <h4>
+                                        Quench your thirst with our refreshing
+                                        beverages. From traditional favorites to
+                                        modern mocktails, our drink menu
+                                        complements every palate.
+                                    </h4>
+                                    <hr />
+                                    <p>
+                                        Try the invigorating Minty Mango Lassi
+                                        or savor the bold flavor of Cold Brewed
+                                        Coffee. Our handcrafted mocktails, like
+                                        Tropical Breeze, add a vibrant touch to
+                                        your dining experience, providing a
+                                        refreshing accompaniment to your meal.
+                                    </p>
+                                    <div class="carousel-btns">
+                                        <button>ORDER NOW</button>
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousell carousel-4 fadex">
+                            <div class="carousel-content">
+                                <div class="carousel-img">
+                                    <img
+                                        src="./images/fastf.jpg"
+                                        alt="fastfood"
+                                        class="carousel-image"
+                                    />
+                                </div>
+                                <div class="carousel-text">
+                                    <h2>4. International Dishes</h2>
+                                    <h4>
+                                        Embark on a global culinary adventure
+                                        with our International Types menu. Enjoy
+                                        the essence of Italian, Chinese, and
+                                        more on your plate.
+                                    </h4>
+                                    <hr />
+                                    <p>
+                                        From classic Margherita Pizza to
+                                        Vegetable Stir-Fry and creamy Fettuccine
+                                        Alfredo, our international dishes invite
+                                        you to explore diverse flavors from
+                                        around the world. Each dish is a
+                                        passport to a culinary adventure,
+                                        delivering a global twist to your dining
+                                        table.
+                                    </p>
+                                    <div class="carousel-btns">
+                                        <button>ORDER NOW</button>
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="third-sec">
+                <h1>RESERVATION</h1>
+                <h3>Book a table online. Leads will reach in your email.</h3>
+                <hr />
+                <div class="reservation-form">
+                    <form action="" method="" class="res-form">
+                        <div class="form-part">
+                            <label for="date">Date</label>
+                            <input
+                                type="date"
+                                name="reservationDate"
+                                id="date"
+                                placeholder="Pick a date"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-part">
+                            <label for="name">Your Name</label>
+                            <input
+                                type="text"
+                                name="customerName"
+                                id="name"
+                                placeholder="Full Name"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-part">
+                            <label for="time">Time</label>
+                            <input
+                                type="time"
+                                name="reservationTime"
+                                id="time"
+                                placeholder="Pick a time"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-part">
+                            <label for="email">Email Address</label>
+                            <input
+                                type="email"
+                                name="userEmail"
+                                id="email"
+                                placeholder="Your Email ID"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-part">
+                            <label for="guests">Guests</label>
+                            <input
+                                type="number"
+                                name="guestsCount"
+                                id="guests"
+                                placeholder="How many of you?"
+                            />
+                        </div>
+
+                        <div class="form-part">
+                            <label for="phone">Phone Number</label>
+                            <input
+                                type="tel"
+                                name="customerPhoneNumber"
+                                id="phone"
+                                placeholder="Enter your Phone Number"
+                                required
+                            />
+                        </div>
+
+                        <input
+                            type="submit"
+                            value="MAKE RESERVATION"
+                            class="form-submit"
+                        />
+                    </form>
+                    <h4>
+                        You can also call: <strong>+91 85294 18524</strong> to
+                        make a reservation.
+                    </h4>
+                </div>
+            </div>
+            <div class="fourth-sec">
+                <div class="third-img">
+                    <img src="./images/bg6.jpg" alt="bg3" class="third-image" />
+                </div>
+                <div class="content">
+                    <h1>OUR FEATURES</h1>
+                    <h3>Little things make us best in town</h3>
+                    <hr />
+                    <div class="cards">
+                        <div class="card-1 cardx">
+                            <div class="card-img">
+                                <img
+                                    src="./images/serve.jpg"
+                                    alt="card1"
+                                    class="card-image"
+                                />
+                            </div>
+                            <h2>SERVING WITH LOVE</h2>
+                            <hr />
+                            <p>
+                                Indulge in the warmth of our "Serving with Love"
+                                feature, where each dish is a labor of love from
+                                our kitchen to your table. From thoughtfully
+                                curated ingredients to a welcoming atmosphere,
+                                every element is crafted with passion. At our
+                                restaurant, love is the key ingredient,
+                                elevating your dining experience to a heartfelt
+                                celebration.
+                            </p>
+                        </div>
+                        <div class="card-2 cardx">
+                            <div class="card-img">
+                                <img
+                                    src="./images/seasonal.jpg"
+                                    alt="card2"
+                                    class="card-image"
+                                />
+                            </div>
+                            <h2>SEASONAL SPECIALITY</h2>
+                            <hr />
+                            <p>
+                                Delight in our Seasonal Specialties, a rotating
+                                selection of dishes inspired by the freshest
+                                seasonal ingredients. Our chefs continuously
+                                innovate, ensuring that each visit introduces
+                                you to new, limited-time culinary delights that
+                                capture the essence of the changing seasons.
+                            </p>
+                        </div>
+                        <div class="card-3 cardx">
+                            <div class="card-img">
+                                <img
+                                    src="./images/dine.jpg"
+                                    alt="card3"
+                                    class="card-image"
+                                />
+                            </div>
+                            <h2>INTERACTIVE DINING</h2>
+                            <hr />
+                            <p>
+                                Immerse yourself in an Interactive Dining
+                                Experience, where our open kitchen concept
+                                allows you to witness the culinary magic
+                                firsthand. Engage with our chefs, ask about the
+                                preparation techniques, and enjoy a dining
+                                adventure that goes beyond the plate — a
+                                celebration of food, creativity, and shared
+                                moments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fifth-sec">
+                <h1>OUR MENU</h1>
+                <h3>These fine folks trusted the award winning restaurant.</h3>
+                <hr />
+                <div class="menu">
+                    <ul class="menu-ul">
+                        <li class="menu-menu m-all menu-bg">
+                            <a href="#menu-all">ALL</a>
+                        </li>
+                        <li class="menu-menu m-starters">
+                            <a href="#menu-starters">STARTERS</a>
+                        </li>
+                        <li class="menu-menu m-breakfast">
+                            <a href="#menu-breakfast">BREAKFAST</a>
+                        </li>
+                        <li class="menu-menu m-lunch">
+                            <a href="#menu-lunch">LUNCH</a>
+                        </li>
+                        <li class="menu-menu m-dinner">
+                            <a href="#menu-dinner">DINNER</a>
+                        </li>
+                        <li class="menu-menu m-desserts">
+                            <a href="#menu-desserts">DESSERTS</a>
+                        </li>
+                        <li class="menu-menu m-beverages">
+                            <a href="#menu-beverages">BEVERAGES</a>
+                        </li>
+                    </ul>
+
+                    <table class="menu-table" id="menu-all">
+                        <tr>
+                            <td>
+                                <h5>
+                                    POHA......................................................&#8377;70
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    PARATHA........................................&#8377;130
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    IDLI
+                                    SAMBHAR.......................................&#8377;90
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    UPMAA..............................................................&#8377;80
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    AALOO
+                                    PURI...........................................&#8377;100
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    VEGETABLES
+                                    SANDWICH...................................&#8377;90
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    BIRYANI.....................................&#8377;140
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    DAL
+                                    TADKA............................................................&#8377;110
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    MATAR
+                                    PANEER............................................&#8377;180
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    ALOO
+                                    GOBHI.........................................................&#8377;110
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    RAJMA
+                                    MASALA...........................................&#8377;130
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    PANEER BUTTER
+                                    MASALA.....................................&#8377;210
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    BUTTER
+                                    ROTI................................................&#8377;26
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    ALOO/GARLIC
+                                    NAAN.............................................&#8377;45
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    KOFTA.....................................&#8377;235
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    CHOLE
+                                    BHATURE.....................................&#8377;195
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    PULAO.....................................&#8377;135
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    MUSHROOM
+                                    MATAR.....................................&#8377;160
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    DAL
+                                    MAKHANAI.....................................&#8377;190
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    ALOO
+                                    METHI............................................&#8377;160
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    MALAI
+                                    KOFTA............................................&#8377;230
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    BUTTER
+                                    ROTI............................................&#8377;35
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    GARLIC/ALOO
+                                    NAAN.....................................&#8377;65
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    RUMALI
+                                    ROTI............................................&#8377;50
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    LACCHHA
+                                    PARATHA.....................................&#8377;75
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    ALOO
+                                    KULCHA............................................&#8377;75
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    GULAB JAMUN (2
+                                    piece)..................................&#8377;50
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    SHAHI TUKDA (1
+                                    piece).........................................&#8377;60
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    GAJAR KA HALWA (200
+                                    grams).......................&#8377;120
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    JALEBI RABRI (100
+                                    grams)...................................&#8377;60
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    KULFI (1
+                                    piece).................................................&#8377;35
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    KHEER (200
+                                    grams)..............................................&#8377;110
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    MANGO
+                                    LASSI............................................&#8377;90
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    CHAAS
+                                    (BUTTERMILK).......................................&#8377;35
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    ROSE
+                                    SHARBAT..........................................&#8377;100
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    THANKDAI.....................................................&#8377;120
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    GINGER
+                                    LEMONADE...................................&#8377;60
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    MINT
+                                    MOJITO...................................................&#8377;60
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="menu-table hidden" id="menu-starters">
+                        <tr>
+                            <td>
+                                <h5>
+                                    POHA......................................................&#8377;70
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    PARATHA........................................&#8377;130
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    BIRYANI.....................................&#8377;140
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    DAL
+                                    TADKA............................................................&#8377;110
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    KOFTA.....................................&#8377;235
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    CHOLE
+                                    BHATURE.....................................&#8377;195
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    GULAB JAMUN (2
+                                    piece)..................................&#8377;50
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    SHAHI TUKDA (1
+                                    piece).........................................&#8377;60
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    MANGO
+                                    LASSI............................................&#8377;90
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    CHAAS
+                                    (BUTTERMILK).......................................&#8377;35
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="menu-table hidden" id="menu-breakfast">
+                        <tr>
+                            <td>
+                                <h5>
+                                    POHA......................................................&#8377;70
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    PARATHA........................................&#8377;130
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    IDLI
+                                    SAMBHAR.......................................&#8377;90
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    UPMAA..............................................................&#8377;80
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    AALOO
+                                    PURI...........................................&#8377;100
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    VEGETABLES
+                                    SANDWICH...................................&#8377;90
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="menu-table hidden" id="menu-lunch">
+                        <tr>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    BIRYANI.....................................&#8377;140
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    DAL
+                                    TADKA............................................................&#8377;110
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    MATAR
+                                    PANEER............................................&#8377;180
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    ALOO
+                                    GOBHI.........................................................&#8377;110
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    RAJMA
+                                    MASALA...........................................&#8377;130
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    PANEER BUTTER
+                                    MASALA.....................................&#8377;210
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    BUTTER
+                                    ROTI................................................&#8377;26
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    ALOO/GARLIC
+                                    NAAN.............................................&#8377;45
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="menu-table hidden" id="menu-dinner">
+                        <tr>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    KOFTA.....................................&#8377;235
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    CHOLE
+                                    BHATURE.....................................&#8377;195
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    VEGETABLE
+                                    PULAO.....................................&#8377;135
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    MUSHROOM
+                                    MATAR.....................................&#8377;160
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    DAL
+                                    MAKHANAI.....................................&#8377;190
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    ALOO
+                                    METHI............................................&#8377;160
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    MALAI
+                                    KOFTA............................................&#8377;230
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    BUTTER
+                                    ROTI............................................&#8377;35
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    GARLIC/ALOO
+                                    NAAN.....................................&#8377;65
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    RUMALI
+                                    ROTI............................................&#8377;50
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    LACCHHA
+                                    PARATHA.....................................&#8377;75
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    ALOO
+                                    KULCHA............................................&#8377;75
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="menu-table hidden" id="menu-desserts">
+                        <tr>
+                            <td>
+                                <h5>
+                                    GULAB JAMUN (2
+                                    piece)..................................&#8377;50
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    SHAHI TUKDA (1
+                                    piece).........................................&#8377;60
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    GAJAR KA HALWA (200
+                                    grams).......................&#8377;120
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    JALEBI RABRI (100
+                                    grams)...................................&#8377;60
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    KULFI (1
+                                    piece).................................................&#8377;35
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    KHEER (200
+                                    grams)..............................................&#8377;110
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="menu-table hidden" id="menu-beverages">
+                        <tr>
+                            <td>
+                                <h5>
+                                    MANGO
+                                    LASSI............................................&#8377;90
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    CHAAS
+                                    (BUTTERMILK).......................................&#8377;35
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    ROSE
+                                    SHARBAT..........................................&#8377;100
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    THANKDAI.....................................................&#8377;120
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    GINGER
+                                    LEMONADE...................................&#8377;60
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                            <td>
+                                <h5>
+                                    MINT
+                                    MOJITO...................................................&#8377;60
+                                </h5>
+                                <p>pellentesque enim. Aliquam tempor</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <button type="submit" class="menu-explore">
+                        EXPLORE OUR MENU
+                    </button>
+                </div>
+                <h1>TRUSTED BY</h1>
+                <h3>These fine folks trusted the award winning restaurant</h3>
+                <hr />
+                <div class="trust-body">
+                    <div class="trusts" id="trusts">
+                        <img src="./images/foodsquare.png" alt="foodsquare" />
+                        <img src="./images/opentable.png" alt="opentable" />
+                        <img src="./images/zomato.png" alt="zomatp" />
+                        <img src="./images/tripadvisor.png" alt="tripadvisor" />
+                    </div>
+                </div>
+            </div>
+            <div class="sixth-sec">
+                <div class="fourth-img">
+                    <img
+                        src="./images/bg4.jpg"
+                        alt="bg4"
+                        class="fourth-image"
+                    />
+                </div>
+                <div class="content">
+                    <img src="./images/quote.png" alt="quote" class="quote" />
+                    <div class="carousels">
+                        <div class="review rev-1 carousell2 fadex">
+                            <div class="carousel-text">
+                                <h1>Harmonious Haven</h1>
+                                <h4>
+                                    Nestled in Surat, Tomato restaurant is a
+                                    sanctuary for culinary enthusiasts. Offering
+                                    an exquisite vegetarian menu, enriched with
+                                    fresh seasonal ingredients, and infused with
+                                    international flair, each bite is a symphony
+                                    of flavors. The warm ambiance complements
+                                    the culinary journey, making Tomato a
+                                    cherished destination for discerning
+                                    palates.
+                                </h4>
+                                <p>
+                                    <strong>Harsh Agarwal, </strong>Businessman
+                                </p>
+                            </div>
+                        </div>
+                        <div class="review rev-2 carousell2 fadex">
+                            <div class="carousel-text">
+                                <h1>Culinary Extravaganza</h1>
+                                <h4>
+                                    Step into Tomato restaurant in Surat and
+                                    embark on a culinary adventure. With a
+                                    diverse vegetarian menu featuring fresh,
+                                    seasonal produce, and a dash of
+                                    international influence, the dining
+                                    experience is nothing short of an
+                                    extravaganza. The inviting atmosphere adds a
+                                    special touch to this gastronomic journey.
+                                </h4>
+                                <p><strong>Shivraj Singh, </strong>Founder</p>
+                            </div>
+                        </div>
+                        <div class="review rev-3 carousell2 fadex">
+                            <div class="carousel-text">
+                                <h1>Vegetarian Delight</h1>
+                                <h4>
+                                    Discover the hidden gem of Tomato restaurant
+                                    in Surat, where vegetarian dining is
+                                    elevated to an art form. From fresh,
+                                    seasonal ingredients to international
+                                    culinary inspirations, each dish is crafted
+                                    with precision. The inviting ambiance
+                                    completes the experience, making Tomato a
+                                    go-to choice for those seeking a delightful
+                                    and sophisticated dining experience.
+                                </h4>
+                                <p><strong>Ankit Birla, </strong>Teacher</p>
+                            </div>
+                        </div>
+                        <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                    </div>
+                    <div class="dots">
+                        <i class="fa-regular fa-circle checked dot-1 dot"></i>
+                        <i class="fa-regular fa-circle dot-2 dot"></i>
+                        <i class="fa-regular fa-circle dot-3 dot"></i>
+                    </div>
+                </div>
+                <div class="seventh-sec">
+                    <h1>INSTAGRAM</h1>
+                    <h3>
+                        We love posting photos of our coustomers having a good
+                        time
+                    </h3>
+                    <hr />
+                </div>
+            </div>
+            <div class="eighth-sec">
+                <div class="sec-part">
+                    <h1>SUBSCRIBE</h1>
+                    <p>Get updates about new dishes and upcoming events</p>
+
+                    <form action="" method="">
+                        <input
+                            type="email"
+                            name="userMail"
+                            id="userMail"
+                            placeholder="Your Email Address"
+                            class="subs-inp"
+                        />
+                        <input
+                            type="submit"
+                            value="&#10095;"
+                            class="form-submit"
+                        />
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="f-1">
+                <div class="f-image">
+                    <img src="./images/bg5.jpg" alt="bg5" class="f-img" />
+                </div>
+                <div class="f-text">
+                    <div class="start">
+                        <h3>ABOUT US</h3>
+                        <p>
+                            Welcome to TOMATO, where Indian flavors meet
+                            vegetarian excellence. Our space blends tradition
+                            with modern elegance for a memorable dining
+                            experience. Explore a menu crafted by passionate
+                            chefs celebrating the richness of fresh, healthy
+                            vegetables...
+                        </p>
+                        <a href="#first-sec"
+                            >Read more <i class="fa-solid fa-arrow-right"></i
+                        ></a>
+                    </div>
+                    <div class="middle">
+                        <h3>RECENT POST</h3>
+                        <div class="mid-content">
+                            <div class="recent">
+                                <img src="./images/veges.jpg" alt="dish-1" />
+                                <div class="post-textt">
+                                    <a href="#">
+                                        Hand picked ingridients for our best
+                                        dishes
+                                    </a>
+                                    <p>25th December, 2023</p>
+                                </div>
+                            </div>
+                            <div class="recent">
+                                <img
+                                    src="./images/paneertikka.jpg"
+                                    alt="dish-2"
+                                />
+                                <div class="post-textt">
+                                    <a href="#">
+                                        Daily special foods that you will love
+                                    </a>
+                                    <p>1st January, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last">
+                        <h3>REACH US</h3>
+                        <div class="sm">
+                            <a href="#" title="Facebook"
+                                ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                            <a href="#" title="Twitter"
+                                ><i class="fa-brands fa-twitter"></i
+                            ></a>
+                            <a href="#" title="Instagram"
+                                ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                            <a href="#" title="Pinterest"
+                                ><i class="fa-brands fa-pinterest-p"></i
+                            ></a>
+                            <a href="#" title="YouTube"
+                                ><i class="fa-brands fa-youtube"></i
+                            ></a>
+                            <a href="#" title="Snapchat"
+                                ><i class="fa-brands fa-snapchat"></i
+                            ></a>
+                            <a href="#" title="LinkedIn"
+                                ><i class="fa-brands fa-linkedin-in"></i
+                            ></a>
+                        </div>
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i> Surat -
+                            395009, Gujarat - India
+                        </p>
+                        <p><i class="fa-solid fa-phone"></i> +91 85294-18524</p>
+                        <p>
+                            <i class="fa-solid fa-envelope"></i>
+                            Harshagarwal9835@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="f-2">
+                <p>
+                    @2024. <span style="color: goldenrod">Tomato</span>. All
+                    rights reserved. Designed with
+                    <span style="color: red">&#9829;</span> by
+                    <span style="color: #00f6ff">Fusion</span
+                    ><span style="color: #009cff">Labs</span>.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
