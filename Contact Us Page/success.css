@@ -1,0 +1,117 @@
+:root {
+    --bg-lightest: rgb(182, 255, 255);
+    --bg-dark: rgb(0, 132, 255);
+    --bg-light: rgb(83, 244, 244);
+    --white: rgb(255, 255, 255);
+    --cyan: cyan;
+    --black: black;
+    --gray: gray;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: var(--bg-light);
+    height: 100%;
+}
+
+body {
+    padding: 1rem;
+}
+
+.main {
+    box-sizing: border-box;
+    max-width: 325px;
+    background-color: var(--white);
+    margin: 40% auto;
+    text-align: center;
+    padding: 5rem 2rem 3rem;
+    border-radius: 0.6rem;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    gap: 1.5rem;
+    position: relative;
+    animation: on-load 1000ms;
+}
+
+.main .circle {
+    background-color: var(--bg-lightest);
+    width: 33vw;
+    height: 33vw;
+    max-width: 125px;
+    max-height: 125px;
+    position: absolute;
+    left: 31%;
+    top: -20%;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+}
+
+.circle i {
+    font-size: 4rem;
+    color: var(--bg-dark);
+}
+
+.main h1 {
+    color: var(--bg-dark);
+}
+
+.main p {
+    letter-spacing: 1px;
+    width: 80%;
+    margin: -1rem auto 1rem;
+}
+
+button {
+    padding: 0.8rem 2.5rem;
+    outline: none;
+    border: none;
+    background-color: var(--bg-dark);
+    font-weight: bold;
+    border-radius: 1.5rem;
+    color: var(--bg-lightest);
+    cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
+}
+
+button:focus,
+button:hover {
+    background-color: var(--cyan);
+    color: var(--white);
+}
+
+@media screen and (min-width: 450px) {
+    .main {
+        margin: 30% auto;
+        padding: 6rem 2rem 3rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .main {
+        margin: 20% auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main {
+        margin: 15% auto;
+    }
+}
+
+@keyframes on-load {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}

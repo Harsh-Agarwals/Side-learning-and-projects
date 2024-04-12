@@ -1,0 +1,238 @@
+:root {
+    --bg-lightest: rgb(182, 255, 255);
+    --bg-dark: rgb(0, 132, 255);
+    --bg-light: rgb(83, 244, 244);
+    --white: rgb(255, 255, 255);
+    --cyan: cyan;
+    --black: black;
+    --gray: gray;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: var(--bg-light);
+}
+
+body {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.heading {
+    width: 80%;
+    padding: 2rem 0;
+    margin-left: 1rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.heading h1 {
+    margin: 1rem 0;
+    color: var(--bg-dark);
+}
+
+.contact-section {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.form-section {
+    background-color: var(--bg-lightest);
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.form-section p {
+    margin: 1.5rem 0;
+}
+
+.det {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.det span,
+.address {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    padding-left: 1rem;
+    align-items: flex-start;
+}
+
+.message {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+label {
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    border: none;
+    outline: none;
+    background-color: var(--bg-lightest);
+    border-bottom: 2px solid var(--cyan);
+    padding-bottom: 4px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-left: 0.5rem;
+    padding: 4px;
+}
+
+textarea {
+    border: 1px solid var(--cyan);
+    width: 80%;
+    padding: 4px;
+    box-shadow: 1px 1px 8px var(--gray);
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--bg-dark);
+}
+
+.form-section p:last-child {
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 0.8rem 2.5rem;
+    outline: none;
+    border: none;
+    background-color: var(--bg-dark);
+    font-weight: bold;
+    border-radius: 1.5rem;
+    color: var(--bg-lightest);
+    cursor: pointer;
+}
+
+input[type="submit"]:focus {
+    border: 2px solid var(--black);
+    padding: calc(0.8rem - 2px) calc(2.5rem - 2px);
+}
+input[type="submit"]:hover {
+    background-color: var(--cyan);
+    color: var(--white);
+}
+
+.address-section {
+    background-color: var(--bg-dark);
+    color: var(--bg-lightest);
+    padding: 2rem;
+}
+
+.address-section h2 {
+    margin: 1rem 0;
+    color: var(--cyan);
+}
+
+.logo {
+    display: none;
+    background-color: var(--bg-lightest);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.logo i {
+    color: var(--bg-dark);
+    font-size: 1.2rem;
+    padding-top: 30%;
+}
+
+.details p {
+    margin: 1rem 0;
+}
+
+.details p span:first-child {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--bg-light);
+}
+
+.data {
+    display: grid;
+}
+
+@media screen and (min-width: 450px) {
+    body {
+        width: 80%;
+    }
+    .details p {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 2rem;
+        max-width: 80%;
+    }
+    .address-section h2 {
+        margin: 2rem 0;
+    }
+    .logo {
+        display: inline-block;
+    }
+    .data {
+        gap: 0;
+        grid-template-rows: auto 1fr;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .heading {
+        width: 60%;
+    }
+    .details p {
+        gap: 2rem;
+        max-width: 60%;
+    }
+    .logo {
+        margin-left: 2rem;
+    }
+    .det {
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-section {
+        grid-template-columns: 65% 35%;
+    }
+    .address-section {
+        display: grid;
+        grid-template-rows: 6rem 1fr;
+    }
+    .address,
+    textarea {
+        width: 70%;
+    }
+    .details p {
+        gap: 1rem;
+        max-width: 100%;
+    }
+    .logo {
+        margin-left: 0;
+    }
+}

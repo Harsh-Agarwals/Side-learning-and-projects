@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Us - HARSH</title>
+        <meta name="author" content="Harsh Agarwal" />
+        <meta
+            name="description"
+            content="Contact Us page with HTML, CSS and JavaScript"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+
+        <!-- smtp js -->
+        <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+
+        <!-- main js -->
+        <script src="./main.js" defer></script>
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Contact Us</h1>
+            <p>
+                For more information about our Firm, or to contact us for any
+                support, product, demo, and other services, please let us know!
+            </p>
+        </div>
+
+        <div class="contact-section">
+            <div class="form-section">
+                <form action="" method="">
+                    <p class="det">
+                        <span>
+                            <label for="first-name">First Name</label>
+                            <input
+                                type="text"
+                                name="fname"
+                                id="first-name"
+                                placeholder="First Name"
+                                required
+                            />
+                        </span>
+
+                        <span>
+                            <label for="last-name">Last Name</label>
+                            <input
+                                type="text"
+                                name="lname"
+                                id="last-name"
+                                placeholder="Last Name"
+                                required
+                            />
+                        </span>
+                    </p>
+
+                    <p class="det">
+                        <span>
+                            <label for="contact">Contact Number</label>
+                            <input
+                                type="tel"
+                                name="contact"
+                                id="contact"
+                                placeholder="Contact Number"
+                            />
+                        </span>
+
+                        <span>
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                                required
+                            />
+                        </span>
+                    </p>
+
+                    <p class="address">
+                        <label for="address">Address</label>
+                        <input
+                            type="text"
+                            name="address"
+                            id="address"
+                            placeholder="Address"
+                            minlength="10"
+                        />
+                    </p>
+
+                    <p class="message">
+                        <label for="message">Message</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            cols="30"
+                            rows="5"
+                            placeholder="Your message here..."
+                        ></textarea>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Send" />
+                    </p>
+                </form>
+            </div>
+            <div class="address-section">
+                <h2>Reach Us</h2>
+                <div class="details">
+                    <p>
+                        <span class="logo">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <span class="data">
+                            <span>Email</span>
+                            <span>harshagarwal9835@gmail.com</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="logo">
+                            <i class="fa-solid fa-phone"></i>
+                        </span>
+                        <span class="data">
+                            <span>Contact Number</span>
+                            <span>+91 9876543210</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="logo">
+                            <i class="fa-solid fa-house"></i>
+                        </span>
+                        <span class="data">
+                            <span>Address</span>
+                            <span>
+                                C-432, Hiranandi flats-4, Hiranandani Park,
+                                Powai, Mumbai - Maharashtra
+                            </span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
