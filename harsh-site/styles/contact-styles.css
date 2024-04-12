@@ -1,0 +1,80 @@
+body {
+    background-color: #fae897;
+}
+
+.contact-middle-container {
+    width: 70%;
+    margin: 2em auto;
+    padding: 2em;
+    border: 5px solid #c5a61f;
+    border-radius: 0.5em;
+    background-color: #ffe15d;
+    box-sizing: border-box;
+    position: relative;
+    height: 26em;
+}
+
+form {
+    width: 45%;
+    /* margin: 2em 2em; */
+    border-right: 3px solid #c5a61f;
+    /* display: inline-block; */
+    /* float: left; */
+    position: absolute;
+    left: 2em;
+}
+
+form p {
+    font-family: sans-serif;
+}
+
+label {
+    color: #c5a61f;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 7em;
+    text-align: right;
+}
+
+form span {
+    color: #796714;
+    font-size: 1.3em;
+}
+
+input,
+textarea {
+    background-color: #fae897;
+    border: 2px solid #c5a61f;
+    border-radius: 0.3em;
+    font-size: 1em;
+    color: #796714;
+    padding: 0.2em;
+    width: 13em;
+}
+
+input {
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 0.3em;
+    font-size: 1.3em;
+    vertical-align: top;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid #a98f1a;
+}
+
+.tweet {
+    height: 22em;
+    width: 45%;
+    overflow-y: scroll;
+    /* margin: auto; */
+    /* display: inline-block; */
+    position: absolute;
+    right: 2em;
+}

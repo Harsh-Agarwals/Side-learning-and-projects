@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ####################### HEADING ####################### */
+
+.heading {
+    background-color: #c5a61f;
+    /* height: 15%; */
+    margin: 0;
+    position: relative;
+}
+
+/* --------------- IMAGE -------------- */
+.author {
+    width: 6%;
+    margin: 1% 15%;
+    display: inline-block;
+}
+
+/* ------------ NAVIGATION ------------ */
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+    position: absolute;
+    right: 12%;
+    padding: 0;
+}
+
+.heading li {
+    font-size: 130%;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 4%;
+}
+
+/* ----------------- NAV LINK --------------- */
+.heading a {
+    text-decoration: none;
+    color: #ffe15d;
+}
+
+.heading a:hover {
+    color: black;
+}
+
+/* ####################### TOP-CONTAINER #################### */
+
+.top-container {
+    padding-top: 5%;
+    background-color: #ffe15d;
+    position: relative;
+}
+
+/* ---------------CLOUD--------------- */
+.cloud {
+    position: absolute;
+    width: 15%;
+}
+
+.cloud-1 {
+    right: 22%;
+    top: 20%;
+}
+
+.cloud-2 {
+    left: 20%;
+}
+
+/* --------------MOUNTAIN------------- */
+.mountain {
+    display: block;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+/* -------------- h1 and p ------------- */
+.top-container h1 {
+    text-align: center;
+    font-family: "Caveat";
+    font-size: 400%;
+    color: #dc3535;
+}
+
+.top-container p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100%;
+    margin-top: -1%;
+    color: #ae6f12;
+    letter-spacing: 1px;
+}
+
+/* ########################### MIDDLE-CONTAINER ####################### */
+
+.middle-container {
+    text-align: center;
+    background-color: #fae897;
+    font-family: "Mukta", sans-serif;
+}
+
+/* ======================= PROFILE ====================== */
+.profile {
+    padding: 10%;
+}
+
+.profile img {
+    width: 15%;
+}
+
+.profile h2,
+.skills h2 {
+    font-family: "Pacifico", cursive;
+    color: #b01e68;
+    font-size: 2.5em;
+}
+
+.profile p {
+    width: 40%;
+    margin: 4% auto 0;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #6d4509;
+}
+
+/* -------------------- HR --------------------- */
+hr {
+    border: none;
+    border-top: 15px dotted #ef7c7c;
+    width: 10%;
+    margin-bottom: 2em;
+}
+
+/* ====================== SKILLS SECTION ==================== */
+.skills {
+    margin-bottom: 10%;
+}
+
+.skills h2 {
+    padding: 3%;
+    text-decoration: underline;
+}
+
+/* --------------- INDIVIDUAL SECTIONS --------------- */
+.skill-row {
+    width: 60%;
+    margin: 5% auto;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.skill-row:nth-of-type(even) {
+    text-align: right;
+}
+
+.skill-row:nth-of-type(odd) {
+    text-align: left;
+}
+
+/* --------------- IMAGES ----------------- */
+.skill-row img {
+    width: 40%;
+    height: 50%;
+    margin: 1% 4% 1% 2%;
+    /* margin-top: 3em; */
+    float: left;
+}
+
+.skill-row:nth-of-type(even) img {
+    float: right;
+    margin-left: 4%;
+}
+
+/* ------------------ H3 ------------------ */
+.skill-row h3 {
+    font-family: "Signika Negative", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    font-size: 2em;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #c27b10;
+}
+
+/* -------------------- P ------------------ */
+.skill-row p {
+    width: 50%;
+    letter-spacing: 1px;
+    font-size: 1em;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+/* ===================== CONTACT SECTION ===================== */
+
+.contact-me {
+    background-color: #ecd361;
+    text-align: center;
+    padding: 3%;
+    letter-spacing: 1px;
+}
+
+.contact-me h2 {
+    color: #c27b10;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+.contact-me h3 {
+    font-size: 1.2em;
+    margin: 1em 2em;
+    line-height: 1.3;
+}
+
+.contact-me p {
+    margin: 1em;
+    line-height: 1.5;
+}
+
+/* ----------------- BUTTON ---------------- */
+.btn {
+    display: inline-block;
+    font-size: 1em;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    margin: 1em;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    color: #6d4509;
+    border-color: #6d4509;
+    position: relative;
+    bottom: 3px;
+    box-shadow: 0 3px 3px #6d4509;
+}
+
+/* ######################## BOTTOM-CONTAINER ###################### */
+
+.bottom-container {
+    background-color: #c5a61f;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-link {
+    margin: 5%;
+    text-decoration: none;
+    color: #6d4509;
+}
+
+.footer-link:hover {
+    color: black;
+}
+
+.bottom-container p {
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 1200px) {
+    .skill-row {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .skill-row {
+        width: 90%;
+    }
+
+    .skill-row img {
+        width: 18em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    hr {
+        border: none;
+        border-top: 12px dotted #ef7c7c;
+        width: 10%;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile img {
+        width: 8em;
+    }
+
+    .profile p {
+        width: auto;
+    }
+
+    .skill-row {
+        width: 90%;
+        display: block;
+        text-align: inherit;
+        padding: 1em;
+    }
+
+    .skill-row p,
+    h3 {
+        text-align: center;
+        width: auto;
+    }
+
+    .skill-row h3 {
+        width: 100%;
+    }
+
+    .skill-row img {
+        margin: 1em auto 0.5em;
+        float: none;
+        width: 14em;
+        display: block;
+    }
+
+    .skill-row:nth-of-type(even) img {
+        float: none;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    hr {
+        border: none;
+        border-top: 10px dotted #ef7c7c;
+        width: 10%;
+        margin-bottom: 2em;
+    }
+
+    .profile img {
+        width: 8em;
+    }
+
+    .profile p {
+        width: auto;
+    }
+
+    .skill-row {
+        width: 100%;
+        border-bottom: 2px solid #c27b10;
+        display: block;
+        text-align: inherit;
+        padding: 1em;
+    }
+
+    .skill-row p,
+    h3 {
+        text-align: center;
+        width: auto;
+    }
+
+    .skill-row h3 {
+        width: 100%;
+    }
+
+    .skill-row img {
+        margin: 1em auto 0.5em;
+        float: none;
+        width: 13em;
+        display: block;
+    }
+
+    .skill-row:nth-of-type(even) img {
+        float: none;
+        margin-left: auto;
+    }
+}

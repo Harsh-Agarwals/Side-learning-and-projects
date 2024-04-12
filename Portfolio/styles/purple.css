@@ -1,0 +1,24 @@
+:root {
+    --main-color: #7e4c74;
+    --secondary-color: #fff;
+
+    --border-color: rgb(90, 2, 90);
+    --border-color2: rgb(90, 2, 90);
+
+    --box-color: #192734;
+
+    --main-text: white;
+    --secondary-text: #4b5156;
+
+    --button-color: #192734;
+    --button-lite: #e3b1d9;
+    --button-dark: #bd39a3;
+}
+
+.special h2 {
+    color: white;
+}
+
+.submit:hover {
+    color: #fff;
+}

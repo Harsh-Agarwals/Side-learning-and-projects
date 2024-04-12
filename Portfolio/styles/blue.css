@@ -1,0 +1,16 @@
+:root {
+    --main-color: #192734;
+    --secondary-color: #fff;
+
+    --border-color: #01afff;
+    --border-color2: #192734;
+
+    --box-color: #192734;
+
+    --main-text: white;
+    --secondary-text: #4b5156;
+
+    --button-color: #192734;
+    --button-lite: rgb(64, 203, 250);
+    --button-dark: rgb(0, 191, 255);
+}
