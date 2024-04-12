@@ -1,0 +1,139 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #60a9ff;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+header {
+    background-color: #3894fd;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 2em;
+}
+
+header h1 {
+    font-size: min(2em, 7vw);
+}
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.pricing-panel {
+    padding: 2em;
+    border-right: 1px solid gainsboro;
+    flex: 1;
+}
+
+.pricing-panel:last-child {
+    border-right: none;
+}
+
+main img {
+    width: 100%;
+    max-width: 200px;
+}
+
+main h2 {
+    font-size: 1em;
+    color: rgb(165, 165, 165);
+    margin: 1em auto 3em;
+}
+
+main p {
+    color: #3894fd;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: bold;
+    padding: 1.5em;
+    margin: 0;
+    border-top: 1px solid gainsboro;
+}
+
+main p:last-child {
+    border-bottom: 1px solid gainsboro;
+}
+
+.pricing-panel h1 {
+    color: #016ff9;
+}
+
+.pricing-panel button {
+    font-size: 0.9rem;
+    background-color: white;
+    padding: 1em 2.5em;
+    border: 1px solid #9dd1ff;
+    border-radius: 0.6em;
+    color: #348efe;
+}
+
+.pricing-panel button a {
+    color: #348efe;
+    text-decoration: none;
+}
+
+.pricing-panel button:hover {
+    background-color: #d4e8fa;
+}
+
+.pricing-panel .button-2 {
+    color: white;
+    background-color: #3894fd;
+}
+
+.pricing-panel .button-2 a {
+    color: white;
+}
+
+.pricing-panel .button-2:hover {
+    background-color: #2185ff;
+}
+
+@media screen and (max-width: 1056px) {
+    body {
+        width: 90%;
+    }
+    .pricing-panel {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 938px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2em;
+    }
+    main img {
+        max-width: 100%;
+    }
+    .pricing-panel {
+        border-right: none;
+    }
+}
