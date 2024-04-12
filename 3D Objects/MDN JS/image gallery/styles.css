@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.display {
+    margin: 0 auto -4px;
+    width: 600px;
+    background-color: black;
+}
+
+.display img {
+    width: 600px;
+}
+
+.img-design {
+    position: absolute;
+    top: 8px;
+    border-radius: 0;
+    border: 0;
+    background-color: gainsboro;
+    padding: 2px 4px;
+    cursor: pointer;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.gallery {
+    width: 600px;
+    background-color: aqua;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-btn {
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.gallery img {
+    width: 120px;
+}

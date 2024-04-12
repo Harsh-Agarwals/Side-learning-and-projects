@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ff0044;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Ruslan Display", cursive;
+    text-align: center;
+    font-size: min(4rem, 15vw);
+    color: white;
+    padding: 4rem 3rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+input {
+    background-color: #ff0044;
+    outline: none;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    padding: 4px 8px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+hr {
+    border: none;
+    border-bottom: 4px solid purple;
+    margin: 2rem 5rem;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
+.content p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.mouseover {
+    padding: 2rem 3rem;
+    /* margin: -3px; */
+}

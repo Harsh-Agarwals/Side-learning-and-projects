@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ALARM API</title>
+
+        <script src="./app.js" defer></script>
+    </head>
+    <body>
+        <form action="/formSubmit" id="alarm_form">
+            <label for="user_name"
+                >User Name:
+                <input
+                    type="text"
+                    name="user_name"
+                    id="user_name"
+                    placeholder="User Name"
+                />
+            </label>
+            <label for="wait_for"
+                >Wait For:
+                <input
+                    type="number"
+                    name="wait_for"
+                    id="wait_for"
+                    placeholder="Must be >0"
+                />
+            </label>
+            <input type="submit" value="Submit" />
+        </form>
+        <h2 id="alarm_msg"></h2>
+    </body>
+</html>
