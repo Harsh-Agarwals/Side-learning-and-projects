@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog Design and Hamburger Menu</title>
+        <meta name="description" content="Blog Design and Hamburger Menu" />
+        <meta name="author" content="Harsh Agarwal" />
+
+        <!-- Icons CDN -->
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./styles.css" />
+
+        <!-- JS -->
+        <script src="./app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <span class="circle"></span>
+            <nav>
+                <ul class="triangle hidden">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+                <button class="hamburger">
+                    <i class="menuIcon material-icons">menu</i>
+                    <i class="closeIcon material-icons hidden">close</i>
+                </button>
+            </nav>
+            <div class="heading">
+                <h1>Harsh'S BLOGS</h1>
+            </div>
+        </header>
+        <hr />
+        <main>
+            <div class="main-section">
+                <div class="about">
+                    <h1>Awesome Article</h1>
+                    <p class="author"><em>Harsh Agarwal</em></p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis, ut cupiditate labore totam fuga quae ex
+                        repellendus praesentium. Illo dignissimos at modi! Vel
+                        laudantium deleniti placeat dolore consectetur magnam
+                        dolorum.
+                    </p>
+                </div>
+                <div class="content">
+                    <h2>My Dog</h2>
+                    <img
+                        src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                        alt="My Dog"
+                    />
+                </div>
+                <div class="desc">
+                    <p>
+                        The <strong>dog</strong> (Canis familiaris or Canis
+                        lupus familiaris) is a
+                        <em>domesticated descendant of the wolf</em>. Also
+                        called the domestic dog, it is derived from the extinct
+                        <strong>Pleistocene wolf</strong>, and the modern wolf
+                        is the dog's nearest living relative. Dogs were the
+                        first species to be domesticated by hunter-gatherers
+                        over 15,000 years ago before the development of
+                        agriculture. Due to their long association with humans,
+                        dogs have expanded to a large number of domestic
+                        individuals and gained the ability to thrive on a
+                        starch-rich diet that would be inadequate for other
+                        canids.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <hr />
+        <footer>
+            <div class="footer">
+                <address>
+                    Agarwals, Street-6<br />
+                    Beverley Hills<br />
+                    California
+                </address>
+            </div>
+        </footer>
+    </body>
+</html>

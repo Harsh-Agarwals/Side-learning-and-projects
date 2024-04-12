@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    background-color: rgb(247, 230, 216);
+    box-sizing: border-box;
+    padding: 2rem;
+    font-family: sans-serif;
+    border: 30px solid rgb(250, 190, 147);
+    /* transform: rotate(-15deg);
+    margin-left: 10rem;
+    overflow: visible;
+    position: relative;
+    top: -3rem;
+    left: -2rem; */
+}
+
+/* ===========HEADER=========== */
+header {
+    color: brown;
+    font-weight: bolder;
+    font-size: 2rem;
+    position: relative;
+}
+
+header h1 {
+    border-left: 5px solid saddlebrown;
+    padding: 0.5rem 1rem;
+    font-size: min(2em, 15vw);
+    margin-top: 4rem;
+}
+
+.circle {
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    background-color: salmon;
+    display: inline-block;
+    position: absolute;
+    top: -12rem;
+    left: -11rem;
+    z-index: -1;
+}
+
+/* -------------Nav------------ */
+/* .triangle {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(20, 20, 20);
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+} */
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    padding: 2rem 1rem;
+    text-align: right;
+    width: 30%;
+    position: absolute;
+    top: -6rem;
+    left: -4rem;
+    padding-top: 15%;
+    height: 100vh;
+    /* transition: width 2s; */
+}
+
+li {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 2rem 1rem;
+    cursor: pointer;
+}
+
+li:hover {
+    color: salmon;
+}
+
+.hamburger {
+    display: inline-block;
+    position: static;
+    padding: 4px;
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.material-icons {
+    font-size: 3rem;
+}
+
+.material-icons:hover {
+    border: 1px dashed black;
+    margin: -1px;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    left: 18%;
+    font-size: 2rem;
+    color: rgb(250, 190, 147);
+}
+
+.closeIcon:hover {
+    border: 1px dashed white;
+    margin: -1px;
+}
+
+/* =============HR============= */
+hr {
+    border: none;
+    border-bottom: 15px dotted sienna;
+    opacity: 0.6;
+    width: 20%;
+    margin: 2rem auto;
+}
+
+/* =============MAIN SECTION=========== */
+.main-section {
+    border-left: 2px solid gray;
+    padding-left: 1rem;
+}
+
+/* ------------About section------------- */
+.about h1 {
+    font-size: 2.5rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    color: saddlebrown;
+    letter-spacing: 1pwx;
+    margin-bottom: 4px;
+}
+
+.about p,
+.desc p {
+    letter-spacing: 1px;
+    line-height: 1.2;
+    width: 80%;
+    margin: 2rem 0;
+}
+
+.about .author {
+    margin-top: 0;
+    color: grey;
+}
+
+/* ----------------Content---------------- */
+.content h2 {
+    color: rgb(183, 135, 14);
+    letter-spacing: 0.5px;
+    margin-top: 3rem;
+}
+
+.content img {
+    width: 80%;
+    object-fit: cover;
+}
+
+/* ==================FOOTER================ */
+footer {
+    background-color: sienna;
+    padding: 2rem;
+    color: white;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        border: 20px solid rgb(250, 190, 147);
+    }
+    ul {
+        padding-top: 25%;
+        width: 40%;
+    }
+    .about p,
+    .desc p {
+        width: 90%;
+    }
+    .content img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    body {
+        padding: 1rem;
+    }
+    ul {
+        padding-top: 38%;
+        padding-right: 0.5rem;
+        width: 50%;
+    }
+    .closeIcon {
+        left: 15%;
+    }
+    .about p,
+    .desc p {
+        width: 100%;
+    }
+}

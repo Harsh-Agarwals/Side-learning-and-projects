@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+}
+
+.search {
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 10rem auto;
+    width: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: width 0.5s ease-in;
+}
+
+.hidden {
+    display: none;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+#user_text {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #3a7bd5;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    max-width: 75%;
+    letter-spacing: 1px;
+}
+
+.expand {
+    width: 15rem;
+}

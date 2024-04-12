@@ -1,0 +1,74 @@
+body {
+    width: 80vw;
+    margin: 5rem auto;
+    background-color: cadetblue;
+}
+
+.cards {
+    background-color: blueviolet;
+    border: 2px solid maroon;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card {
+    width: 8%;
+    margin: 8px;
+    transition: width 1s;
+    transition-timing-function: ease-out;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.ontouch {
+    width: 60%;
+    transition: width 1s;
+    transition-timing-function: ease-out;
+}
+
+.cards-2 {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80vw;
+    background-color: lightgreen;
+    border: 3px solid green;
+    margin: 2rem auto;
+}
+
+.cards-2 h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.cards-2 h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.card-style {
+    border: 5px solid white;
+    padding: 2rem 3rem;
+    width: 1%;
+    overflow: hidden;
+    transition: width 2s;
+}
+
+.on-tut-touch {
+    width: 50%;
+    transition: width 2s;
+}

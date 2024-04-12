@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Number Guessing Game</title>
+        <meta name="description" content="Number Guessing Game" />
+        <meta name="author" content="Harsh Agarwal" />
+
+        <!-- Font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Emoji CDN -->
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+
+        <link href="./styles.css" rel="stylesheet" type="text/css" />
+        <script src="./app.js" defer></script>
+    </head>
+    <body>
+        <div class="head">
+            <button class="hidden again">Again</button>
+            <p>
+                (between <span class="num">1</span> and
+                <span class="num">20</span>)
+            </p>
+        </div>
+        <div class="game">
+            <h1>Guess the number!</h1>
+            <div class="num-display">
+                <button class="display-guess" disabled>?</button>
+                <hr class="hr1" />
+            </div>
+            <div class="show">
+                <div class="left-side sides">
+                    <form action="/submit" method="" class="input-form">
+                        <input
+                            type="number"
+                            name="user_guess"
+                            id="user_guess"
+                            min="1"
+                            max="20"
+                            maxlength="2"
+                            required
+                        />
+                        <br />
+                        <input type="submit" value="Check!" />
+                    </form>
+                </div>
+                <hr class="hr2" />
+                <div class="right-side sides">
+                    <div class="game-result">
+                        <p>
+                            <i
+                                class="em em-gift"
+                                aria-role="presentation"
+                                aria-label="WRAPPED PRESENT"
+                            ></i>
+                            Result
+                        </p>
+                    </div>
+                    <div class="game-update">
+                        <p>
+                            <i
+                                class="em em-100"
+                                aria-role="presentation"
+                                aria-label="HUNDRED POINTS SYMBOL"
+                            ></i>
+                            Score:
+                            <span class="score scores"></span>
+                        </p>
+                        <p>
+                            <i
+                                class="em em-first_place_medal"
+                                aria-role="presentation"
+                                aria-label="FIRST PLACE MEDAL"
+                            ></i>
+                            High Score:
+                            <span class="high-score scores"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

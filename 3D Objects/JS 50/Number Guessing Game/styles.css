@@ -1,0 +1,187 @@
+body {
+    background-color: gray;
+    color: whitesmoke;
+    font-family: "Press Start 2P", cursive;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head p {
+    margin: 1rem;
+    text-align: center;
+    font-size: min(1.2rem, 4vw);
+    word-spacing: -6px;
+    line-height: 1.5;
+}
+
+.num {
+    color: yellow;
+}
+
+button,
+.left-side input[type="submit"] {
+    font-size: min(1.5rem, 3vw);
+    background-color: lightgray;
+    color: black;
+    padding: 1.2rem 1rem;
+    outline: none;
+    border: none;
+    font-family: "Press Start 2P", cursive;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 4px solid black;
+    margin: -4px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ===================GAME SECTION================= */
+.game h1 {
+    text-align: center;
+    color: black;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    word-spacing: -14px;
+    line-height: 1.2;
+    padding: 1rem 2rem;
+}
+
+.game button {
+    display: block;
+    margin: 3rem auto;
+    padding: 0.5em 2em;
+    font-size: 2.2rem;
+}
+
+.game button:hover {
+    border: none;
+    cursor: auto;
+}
+
+.game .hr1 {
+    border: none;
+    border-top: 4px solid lightgray;
+    position: relative;
+    bottom: calc(3rem + 35.2px);
+    z-index: -1;
+}
+
+.hr2 {
+    border: none;
+    border-top: 4px solid black;
+    width: 60%;
+    display: none;
+}
+
+/* ----------------show------------------- */
+
+.show {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+/* ==============Left Side=========== */
+.left-side {
+    flex: 1;
+    text-align: center;
+    margin: 1rem 2rem;
+}
+
+.left-side input[type="number"] {
+    padding: 1.5rem 32px 1.5rem 3rem;
+    outline: none;
+    border: 3px solid lightgray;
+    background-color: gray;
+    font-size: 2rem;
+    width: calc(5rem - 4px);
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    margin-bottom: 2rem;
+}
+
+.left-side input[type="submit"] {
+    font-size: 1rem;
+    padding: 1.2rem 1rem;
+}
+
+.left-side input[type="submit"]:active {
+    opacity: 0.5;
+}
+
+.correct {
+    color: white;
+    opacity: 0.5;
+    border: none;
+}
+
+/* ============Right Side=========== */
+.right-side {
+    flex: 1;
+    margin: 1rem 2rem 1rem 15%;
+}
+
+.low {
+    color: blue;
+}
+
+.high {
+    color: maroon;
+}
+
+.scores {
+    color: darkgreen;
+    position: relative;
+    left: -15px;
+}
+
+.game-result {
+    margin-bottom: 3rem;
+}
+
+/* ----------------RESPONSIVE DESIGN---------------- */
+
+/* ================ 856px ================= */
+@media screen and (max-width: 856px) {
+    .show {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .sides {
+        margin: 1rem 1.5rem;
+        line-height: 1.5;
+    }
+    .left-side input[type="number"] {
+        padding: 1.2rem 32px 1.2rem 2.4rem;
+        margin-bottom: 1rem;
+    }
+    .hr2 {
+        display: block;
+    }
+}
+
+/* ================= 380px ================= */
+@media screen and (max-width: 380px) {
+    .right-side {
+        text-align: center;
+    }
+    .scores {
+        position: initial;
+    }
+}

@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    background-color: darkcyan;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    background: rgb(21, 246, 4);
+    background: linear-gradient(
+        37deg,
+        rgba(21, 246, 4, 1) 0%,
+        rgba(8, 87, 12, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    height: 90vh;
+}
+
+.btn {
+    border: 2px solid indigo;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    margin: 1rem;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+        45deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+    );
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.box-content {
+    width: 40%;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    padding: 0;
+    background-color: indianred;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 3;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: indigo;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding: 1rem;
+    color: white;
+}
+
+.heading button {
+    background-color: indigo;
+    color: white;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 8px;
+}
+
+.heading button:hover {
+    border: 2px dotted black;
+    margin-right: -2px;
+}
+
+.box-content p {
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1060px) {
+    .box-content {
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .box-content {
+        width: 60%;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-content {
+        width: 75%;
+        left: calc(12.5%);
+    }
+}
